@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 27, 133);
+}
+.sign-up-form {
+    width:300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background:#fff;
+    padding:20px;
+    margin:8% auto 0;
+    text-align: center;
+}
+.sign-up-form h1 {
+    color: #07235c;
+    margin-bottom: 30px;
+}
+.input-box {
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0;
+    width:100%;
+    border:1px solid #999;
+    outline:none;
+
+}
+button {
+    color:#fff;
+    width:100%;
+    padding:10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+.sign-btn {
+    background-color:#153f88;
+    width:200px;
+    border-radius: 15px;
+}
+.twitter-btn {
+    background-color: #21afde;
+    width:200px;
+    border-radius: 15px;
+}
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    width: 100%;
+}
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.tag {
+    color:rgb(68, 152, 167)
+}
+
+/*navbar css*/
+.navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgb(32, 27, 133);
+    margin-top: 25px;
+
+}
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 21%;
+    margin-right: 29%;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button {
+    background-color: #df4a79;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.purchase-btn {
+    border-radius: 20px;
+}
+
+
+/*body css*/
+.container {
+    width: 100%;
+  }
+  
+  .left-div, .right-div {
+    display: inline-block;
+    width: 48%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .left-div {
+    border: none;
+  }
+  
+  .right-div {
+    border: none;
+  }
+  
+  .learnmore-btn {
+    background-color: #df4a79;
+    border-radius: 15px;
+    width:120px;
+    margin-left:auto;   
+  }
+
+  .left-content {
+    width: 500px;
+    float: right;
+    height: 400px;
+    text-align: left;
+    
+  }
+  .left-header {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .left-sample {
+    font-size: 20px;
+    color: white;
+    font-family: calibri;
+    font-weight: 200;
+  }
+
+  .right-content{
+    margin-right: 400px;
+    margin-top: 80px;
+  }
